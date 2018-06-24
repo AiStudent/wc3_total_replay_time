@@ -5,6 +5,7 @@ os.chdir("C:/Users/Wc3addict/Desktop/Replay")
 total_ms = 0
 n = 0
 
+# Reads each replay.
 for file in glob.glob("*.w3g"):
     n+= 1
     replay_file = open(file, 'rb')
@@ -25,7 +26,7 @@ for file in glob.glob("*.w3g"):
 
     total_ms += ms
 
-# Print the stuff
+# Print the total
 total_hours = total_ms / (1000 * 3600)
 print()
 print(n, "games.")
