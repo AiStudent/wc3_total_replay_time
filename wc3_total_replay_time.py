@@ -1,6 +1,6 @@
 
 import glob, os
-#Example path. Replay should contain the w3g files.
+#Example path. The "Replay" folder should contain all w3g files.
 os.chdir("C:/Users/Wc3addict/Desktop/Replay")
 total_ms = 0
 n = 0
